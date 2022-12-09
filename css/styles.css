@@ -276,8 +276,20 @@ a {
   transition: 0.3s;
   /* width: min(20%,500px); */
 }
-
-.add:hover {
+.add-ski {
+  top: 70%;
+  align-items: left;
+  margin: 40px 0px;
+  padding: 5px 10px;
+  border: none;
+  background-color: #d98f89;
+  color: #fff;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+.add,
+.add-ski:hover {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
 }
 
