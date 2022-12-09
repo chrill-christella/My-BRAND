@@ -2,6 +2,7 @@
 <head>
     <title></title>
     <link rel="stylesheet" href="./../css/style.css">
+    <script src="https://code.iconify.design/iconify-icon/1.0.2/iconify-icon.min.js"></script>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 <body>
@@ -10,23 +11,18 @@
   <section id="header">
     <div class="header container">
       <div class="nav-bar">
-        <div class="brand">
-          <a href="#hero">
-            <h1><span>CHRIS</span>TELLA <span>UFITE</span>YEZU</h1>
-          </a>
-        </div>
+        <div class="icon">
+          <a href="./blog.html">
+              <iconify-icon icon="material-symbols:arrow-back" style="color:white;" width="50" height="50"></iconify-icon>
+  </a>
+  </div>
         <div class="nav-list">
           <div class="hamburger">
             <div class="bar"></div>
           </div>
           <ul>
             <li><a href="./../index.html" data-after="Home">Home</a></li>
-            <!-- <li><a href="#services" data-after="Service">Skills</a></li>
-            <li><a href="#projects" data-after="Projects">Projects</a></li>
-            <li><a href="#blogs" data-after="blogs">Blogs</a></li>
-            <li><a href="#about" data-after="About">About</a></li>
-            <li><a href="#contact" data-after="Contact">Contact</a></li> -->
-            <li><a href="./signup.html"  class="login-button" data-after="SignUp">Login</a></li>
+            <li><a href="./login.html"  class="login-button" data-after="SignUp">Login</a></li>
           </ul>
         </div>
       </div>
@@ -43,7 +39,6 @@
               <div class="box shadow">
                   <div class="image">
                       <img src="./../img/img-1.png" alt="">
-                      <h3><i class="fas fa-heart"></i> 82</h3>
                   </div>
               </div>
                 <div class="content">
@@ -54,48 +49,22 @@
                         Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eaque, odit!
                         Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eaque, odit!
                     </p>
-                </div>
-                
-                <div class="containerc">
-                  <div class=""><h3>COMMENTS</h3></div>
-                  <div class="comment-container opened" id="first-comment">
-                    <div class="comment-card">
-                      <h3 class="comment-title">The first comment</h3>
-                      <p>
-                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatum
-                        eaque itaque sit tempora officiis, quisquam atque? Impedit
-                        dignissimos error laudantium!
-                      </p>
-                      <div class="comment-footer">
-                        <div>Likes 123</div>
-                        <div>Dislikes 23</div>
-                        <div class="show-replies">Reply 2</div>
-                      </div>
-                    </div>
-                    <div class="comment-container" dataset="first-comment" id="first-reply">
-                      <div class="comment-card">
-                        <h3 class="comment-title">The first reply</h3>
-                        <p>
-                          Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                          Voluptatum eaque itaque sit tempora officiis, quisquam atque?
-                          Impedit dignissimos error laudantium!
-                        </p>
-                        <div class="comment-footer">
-                          <div>Likes 123</div>
-                          <div>Dislikes 23</div>
-                          <div class="show-replies">Reply 1</div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
+                    <iconify-icon icon="mdi:cards-heart-outline" width="20" height="20"></iconify-icon>
+                    likes
+                    <a href="#comment-card">
+                    <iconify-icon icon="uil:comment" width="20" height="20"></iconify-icon>
+                    comment
+                  </a>
                 </div>
                   <label for="comment">Add your comment</label>
-                  <textarea name="comment" id="comment" cols=60" rows="10"></textarea>
-
-                  <a href="#" class="btn ">Submit</a>
+                  <textarea name="comment" id="comment" cols="60" rows="10"></textarea>
+                   <div>
+                    <a href="#" class="add ">Submit</a>
+                   </div>
           </div>
-
+         
   </div>
+  
         <!-- <a href="blog.html" class="btn back">Back</a> -->
       
 <script src="./../js/index.js"></script>
